@@ -1,3 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
     display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer {
+    justify-content: center;
+    padding: 36px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+a, .text {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 600;
+}
+
+.title-2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.hero-image {
+    width: 1000px;
+    height: 500px;
+}
+
+.middle {
+    background-color: white;
+}
+
+.text-dark {
+    color:#1F2937;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.cta-title {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: 600;
+}
+
+.cta-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 600;
 }
