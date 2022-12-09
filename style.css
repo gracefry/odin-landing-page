@@ -56,6 +56,10 @@ ul {
 .hero-text {
     margin-right: 36px;
 }
+    .hero img {
+        object-fit: cover;
+        flex-shrink: 0;
+    }
 
     .title {
         font-size: 48px;
@@ -104,6 +108,13 @@ ul {
         gap: 64px;
     }
 
+    .image img {
+        border: 3px solid #3882F6;
+        border-radius: 8px;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+
 /* GREY QUOTE PART */
 .quote {
     background-color: #E5E7EB;
@@ -113,7 +124,7 @@ ul {
 
     .quote-text {
         font-size: 36px;
-        font-weight: 100;
+        font-weight: 300;
         padding: 100px 400px;
         padding-bottom: 0px;
     }
@@ -123,6 +134,7 @@ ul {
         font-weight: 500;
         padding: 16px 400px;
         padding-bottom: 100px;
+        text-align: right;
     }
 
 /* BLUE CALL TO ACTION BUBBLE*/
