@@ -79,7 +79,7 @@ ul {
         margin-top: 16px;
     }
 
-/* Middle white part */
+/* MIDDLE WHITE PART */
 .middle {
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@ ul {
         gap: 64px;
     }
 
-/* Grey quote part */
+/* GREY QUOTE PART */
 .quote {
     background-color: #E5E7EB;
     padding: 0px;
@@ -127,7 +127,7 @@ ul {
         padding-bottom: 100px;
     }
 
-/* Blue call to action section */
+/* BLUE CALL TO ACTION BUBBLE*/
 .call-to-action {
     display: flex;
     justify-content: space-between;
@@ -135,18 +135,17 @@ ul {
     margin: 100px 250px;
     border-radius: 8px;
     padding: 56px 150px;
+    color: #E5E7EB
 }
 
     .cta-title {
         font-size: 24px;
-        color: #E5E7EB;
         font-weight: 600;
         padding-bottom: 0px;
     }
 
     .cta-subtitle {
         font-size: 18px;
-        color: #E5E7EB;
     }
 
     .cta-button {
