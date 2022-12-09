@@ -43,15 +43,14 @@ ul {
 
 .hero {
     display: flex;
-    padding: 16px 250px;
+    padding: 100px 250px;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
 }
 
 .hero-text {
-    display: flex;
-    flex-direction: column;
+    margin-right: 36px;
 }
 
 .title {
@@ -69,12 +68,8 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 600;
-}
-
-.title-2 {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
+    width: 120px;
+    margin-top: 16px;
 }
 
 .quote {
@@ -98,14 +93,29 @@ ul {
     padding-bottom: 100px;
 }
 
-.hero-image {
-    width: 1000px;
-    height: 500px;
+.middle {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 0px 375px;
+    justify-content: center;
+    align-items: center;
 }
 
-.middle {
-    background-color: white;
-    padding: 16px 400px;
+.title-2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 48px;
+}
+
+.image-tiles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 64px;
+    text-align: center;
+    gap: 64px;
 }
 
 .text-dark {
@@ -113,14 +123,19 @@ ul {
 }
 
 .call-to-action {
+    display: flex;
+    justify-content: space-between;
     background-color: #3882F6;
     margin: 100px 250px;
+    border-radius: 8px;
+    padding: 56px 150px;
 }
 
 .cta-title {
     font-size: 24px;
     color: #E5E7EB;
     font-weight: 600;
+    padding-bottom: 0px;
 }
 
 .cta-subtitle {
@@ -130,11 +145,12 @@ ul {
 
 .cta-button {
     background-color: #3882F6;
-    border: 2px solid #E5E7EB;
+    border: 3px solid #E5E7EB;
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 0px 36px;
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-    font-weight: 600;
+    font-weight: 900;
+    font-family: Roboto, sans-serif;
 }
