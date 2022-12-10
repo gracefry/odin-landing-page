@@ -17,8 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: auto;
-    padding: 24px;
+    margin: 24px auto;
 }
 
 .footer {
@@ -109,6 +108,7 @@ ul {
     .title-2 {
         font-size: 36px;
         font-weight: 900;
+        text-align: center;
         margin: 48px;
     }
 
